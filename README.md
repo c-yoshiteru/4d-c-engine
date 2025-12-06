@@ -1,10 +1,18 @@
 # 4d-c-engine
 ChatGptによる4d-c-engine
 
-echo "# 4d-c-engine" >> README.md 
-git init 
-git add README.md 
-git commit -m "最初のコミット" 
-git branch -M main 
-git remote add origin https://github.com/c-yoshiteru/4d-c-engine.git
- git push -u origin main
+
+# 4d-c-engine
+
+**4D-C — Somatic-Introspection LLM Control**  
+Prototype scaffold and reference implementation for the 4D-C theory: an external control layer that models somatic indicators and dynamically controls LLM response strategies (「有限化」「反転」「C」「マリ」).
+
+## Quickstart
+
+```bash
+# clone
+git clone git@github.com:<yourname>/4d-c-engine.git
+cd 4d-c-engine
+
+# run demo (requires Python3, numpy)
+python examples/demo.py
